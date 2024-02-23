@@ -1933,7 +1933,101 @@ input[type=text], select, textarea {
         top: 10px; /* Adjust top position */
     }
 
-    /* Adjust other styles for smaller screens... */
+    #button-kontakt {
+        font-size: 0.7rem;
+        width: 6%;
+        height: 3%;
+    }
+
+    #apartmani {
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: Lato, sans-serif;
+        left: calc(55% - 13.5px);
+    }
+
+    #blog {
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: Lato, sans-serif;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        font-weight: 800;
+        font-family: Lato, sans-serif;
+        top: 5%;
+    }
+
+    .img1 {
+        width: 15.5%;
+        top: 30%;
+    }
+
+    .img2 {
+        width: 15.5%;
+        top: 60%;
+        left: 2%;
+    }
+
+    .img3 {
+        width: 15.5%;
+        top: 48%;
+    }
+
+    .img4 {
+        width: 15.5%;
+        top: 15%;
+    }
+
+    .img5 {
+        width: 15.5%;
+        left: 25%;
+        top: 67%;
+    }
+
+    .img6 {
+        width: 15.5%;
+        top: 32%;
+        left: 35%;
+    }
+
+    .img7 {
+        width: 15.5%;
+        top: 15%;
+        left: 50%;
+    }
+
+    .img8 {
+        width: 15.5%;
+        top: 52%;
+        left: 40%;
+    }
+
+    .img9 {
+        width: 15.5%;
+        top: 60%;
+        left: 60%;
+    }
+
+    .img10 {
+        width: 15.5%;
+        left: 60%;
+        top: 40%;
+
+    }
+
+    .img11 {
+        width: 15.5%;
+        left: 74%;
+    }
+
+    .img12 {
+        width: 15.5%;
+        top: 50%;
+        left: 80%;
+    }
+
 }
 
 @media only screen and (min-width: 1800px) {
