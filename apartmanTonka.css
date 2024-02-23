@@ -1,0 +1,805 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* height: 20%; */
+}
+
+html {
+    /* This defines what 1rem is */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.contianer {
+    display: flex;
+    position: relative;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    height: 3850%;
+    /* background-color: rgba(0, 117.15, 254.67, 0.12); */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background: none; */
+    border: none;
+    flex-shrink: 0;
+    text-decoration: none;
+    min-width: 0;
+    overflow-wrap: anywhere; 
+}
+
+#button-kontakt {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 88.8%;
+    top: 5.5%;
+    width: 6%;
+    height: 5%;
+    border-radius: 5px;
+    background-color: #3f91f0;
+    border: #3f91f0;
+    transition: border-bottom 0.3s ease;   
+}
+
+#button-kontakt:hover {
+    cursor: pointer;
+    background-color: #70b3ff;
+     
+}
+
+#apartmani {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: calc(50% - 13.5px);
+    top: 5.9%;
+    /* width: s; */
+    height: min-content;
+    white-space: nowrap; 
+    flex-direction: column;
+    transform: translateX(-50%);
+    border: none;
+    background-color: transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+#apartmani:hover {
+    cursor: pointer;
+    border-bottom: 2px solid white; 
+}
+
+
+.logo {
+    color: #000;
+    font-size: 3.2rem;
+    font-weight: 800;
+    font-family: Lato, sans-serif;
+    background-color: transparent;
+    position: absolute;
+    left: 4%;
+    top: 4.5%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.linija {
+    position: absolute;
+    top: 16%;
+    border:none;
+    height: auto;
+    left: 0%;
+    width: 100%;
+    height: 5rem;
+    margin-top: 0;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 0 20px 20px -20px rgb(201, 201, 201);
+    margin: -50px auto 10px; 
+
+}
+
+
+h1 {
+    position: absolute;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    top: 20%;
+    left: 4%;
+    font-size: 3rem;
+}
+
+.short-descript {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 4%;
+    top: 26%;
+    width: auto;
+    height: min-content;
+    flex-direction: column;
+}
+
+/* IMAGES */
+
+.img-container {
+    position: absolute;
+    left: 3%;
+    top: 34%;
+    width: 133rem;
+    height: 61.9rem;
+    border-radius: 30px;
+    background-color: #fcfbfb;
+}
+
+.img-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 57rem;
+    height: 61.8rem;
+    border-radius: 30px 0 0 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 37rem;
+    height: 30.5rem;
+    border-radius: 0 30px 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-top-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 37rem;
+    height: 30.5rem;
+    border-radius: 0 0 30px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-middle-top{
+    position: absolute;
+    left: 43.6%;
+    top: 0;
+    width: 37rem;
+    height: 30.5rem;
+    border-radius: 0 0 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-middle-bottom {
+    position: absolute;
+    left: 43.6%;
+    bottom: 0;
+    width: 37rem;
+    height: 30.5rem;
+    border-radius: 0 0 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* WHAT WE OFFER */
+
+.what-we-offer-container {
+    position: absolute;
+    background-color: #fff;
+    top: 120%;
+    height: 15rem;
+    left: 3.5%;
+    /* right: 4%; */
+    border-radius: 5px;
+    width: 92%;
+}
+
+.what-we-offer-container .etaze {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+/* generalno za sve ikone */        
+.fa-solid {
+    overflow: visible;
+    background-color: unset;
+}
+
+.what-we-offer-container .fa-house {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+}
+
+.what-we-offer-container .d-etaze {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 41%;
+    top: 37%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.what-we-offer-container .telev {
+    position: absolute;
+    left: 20.5%;
+    top: 0;
+    width: 24rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+
+.what-we-offer-container .fa-tv {
+    position: absolute;
+    left: 32.5%;
+    top: 40%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+
+}
+
+.what-we-offer-container .televizija {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 44%;
+    top: 35%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.what-we-offer-container .klima {
+    position: absolute;
+    left: 41.3%;
+    top: 0;
+    width: 24rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+
+.what-we-offer-container .fa-fan {
+    position: absolute;
+    left: 70px;
+    top: 40%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+
+}
+
+.what-we-offer-container .klima-u {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 39%;
+    top: 34.5%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+
+.what-we-offer-container .balkon {
+    position: absolute;
+    left: 61.5%;
+    top: 0;
+    width: 24rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+
+.what-we-offer-container .fa-door-open {
+    position: absolute;
+    left: 70px;
+    top: 40%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+
+}
+
+.what-we-offer-container .balkon-3 {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 39%;
+    top: 34.5%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.what-we-offer-container .sobe {
+    position: absolute;
+    right: 0%;
+    top: 0;
+    width: 24rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+
+.what-we-offer-container .fa-bed {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+
+}
+
+.what-we-offer-container .sobe-3 {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 42%;
+    top: 34.5%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+
+.what-we-offer-container .wifi {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    width: 34rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+.what-we-offer-container .fa-wifi {
+    position: absolute;
+    left: 30%;
+    top: 38%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+
+}
+
+.what-we-offer-container .b-wifi {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 39%;
+    top: 33%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.what-we-offer-container .masina {
+    position: absolute;
+    left: 27.5%;
+    bottom: 0%;
+    width: 34rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+.what-we-offer-container .fa-kitchen-set {
+    position: absolute;
+    left: 30%;
+    top: 38%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+
+}
+
+.what-we-offer-container .masina-z-r {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 38%;
+    top: 32%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.what-we-offer-container .perilica {
+    position: absolute;
+    left: 54.5%;
+    bottom: 0%;
+    width: 34rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+.what-we-offer-container .fa-sink {
+    position: absolute;
+    left: 30%;
+    top: 38%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+}
+
+.what-we-offer-container .perilica-z-s {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 38%;
+    top: 34%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.what-we-offer-container .kuzina {
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    width: 24rem;
+    height: 6.5rem;
+    outline: solid 2px #adadad6b;
+    outline-offset: -2px;
+    border-radius: 5px;
+}
+
+.what-we-offer-container .fa-kitchen-set {
+    position: absolute;
+    left: 30%;
+    top: 38%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 1.3rem;
+}
+
+.what-we-offer-container .kuzina-1 {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 32%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+/* ABOUT */
+
+.linija-1 {
+    position: absolute;
+    top: 148%;
+    border:none;
+    /* height: 20%; */
+    left: 3%;
+    width: 50%;
+    height: 6%;
+    margin-top: 0;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 0 20px 20px -20px rgb(201, 201, 201);
+    margin: -50px auto 10px; 
+}
+
+.about .about-apartman-tonka {
+    position: absolute;
+    top: 152.5%;
+    font-family: Lato, 'sans-serif';
+    font-size: 1.5rem;
+    left: 6%;
+
+}
+
+.linija-2 {
+    position: absolute;
+    top: 168%;
+    border:none;
+    /* height: 20%; */
+    left: 3%;
+    width: 50%;
+    height: 6%;
+    margin-top: 0;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 0 20px 20px -20px rgb(201, 201, 201);
+    margin: -50px auto 10px; 
+}
+
+/* PROVJERI DOSTUPNOST */
+
+.provjeri-dostupnost {
+    position: absolute;
+    right: 4.5%;
+    top: 148%;
+    width: 34.4%;
+    height: 45%;
+    border-radius: 30px;
+    background-color: #fcfbfb;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.provjeri-dostupnost .unesi-datume {
+    color: #000;
+    font-size: 2.4rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 6%;
+    top: 13%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.provjeri-dostupnost .container-za-datume {
+    position: absolute;
+    left: 5%;
+    top: 95px;
+    width: 90%;
+    height: 41%;
+    outline: solid 1px #e3e3e3;
+    outline-offset: -1px;
+    border-radius: 10px;
+}
+
+.provjeri-dostupnost .container-za-datume .dolazak {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.provjeri-dostupnost .container-za-datume .odlazak {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 56%;
+    top: 10%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.provjeri-dostupnost .linija-3-horizontalna {
+    position: absolute;
+    top: 47%;
+    border:none;
+    height: auto;
+    left: 0%;
+    width: 100%;
+    height: 39%;
+    margin-top: 0;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 0 0px 20px -20px rgb(201, 201, 201);
+    margin: -50px auto 10px;
+
+}
+
+.provjeri-dostupnost .linija-3-vertikalna {
+    position: absolute;
+    top: 42.5%;
+    border:none;
+    height: auto;
+    left: 50%;
+    width: 12%;
+    height: 40%;
+    margin-top: 0;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 0 0px 20px -20px rgb(201, 201, 201);
+    margin: -50px auto 10px;
+    -webkit-transform:rotate(90deg);
+
+}
+
+.provjeri-dostupnost .container-za-datume .unesi-datum-dolazak {
+    color: #0000006e;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    display: flex;
+}
+
+.provjeri-dostupnost .container-za-datume .unesi-datum-odlazak {
+    color: #0000006e;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 56%;
+    top: 25%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    display: flex;
+}
+
+.provjeri-dostupnost .container-za-datume .gosti {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 25px;
+    top: 85px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.provjeri-dostupnost .container-za-datume .gost-1 {
+    color: #0000006e;
+    font-size: 1.6rem;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 6%;
+    top: 76%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    display: flex;
+}
+
+.provjeri-dostupnost .container-za-datume .fa-arrow-down {
+    position: absolute;
+    right: 8%;
+    top: 70%;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    font-size: 2.1rem;
+}
+
+.provjeri-dostupnost .dostupnost {
+    position: absolute;
+    left: 0;
+    top: 112%;
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: #3f91f0;
+}
+
+.provjeri-dostupnost .dostupnost .dostupnost-apartmana {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 26%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.di-se-nalazimo .di-smo {
+    color: #000;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    position: absolute;
+    left: 6%;
+    top: 185%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* CSS styles for extra small devices */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* CSS styles for small devices */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* CSS styles for medium devices */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* CSS styles for large devices */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* CSS styles for extra large devices */
+}
